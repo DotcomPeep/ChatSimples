@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Chat </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page" id="LoginPage">
+            <h1> Digite seu nickname </h1>
+            <input type="text" id="LoginNameInput" placeholder="Digite seu nick e logo após pressione ENTER"/>
+        </div>
+
+        <div class="page" id="ChatPage">
+            <div class="ChatArea">
+                <ul class="ChatList">
+                    <!--<li class="m-status"> x está conectado na sala</li>
+                    <li class="m-status"> x desconectou</li>
+                    <li class="m-txt"> <span class="me">Leo</span> Opa, Tudo bem?</li>
+                    <li class="m-txt"> <span>Nate</span> Opa, Tudo bem?</li>-->
+                </ul>
+                <ul class="UserList">
+                    <!--<li>Leo</li>
+                    <li>Nate</li>
+                    <li>Ana</li>-->
+                </ul>
+            </div>
+            <div class="ChatInput">
+                <input type="Text" id="ChatTextInput" placeholder="Digite uma mensagem e aperte ENTER" />
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "chatsimples",
+  "version": "1.0.0",
+  "description": "Os Sockets podem ser definidos como um *processo de comunicação que permite dois diferentes processos de coversarem e trocarem informação entre si*.\r   O socket mantém uma conexão permanente com o servidor, fazendo assim com que tenhamos atualizações simultâneas no servidor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
